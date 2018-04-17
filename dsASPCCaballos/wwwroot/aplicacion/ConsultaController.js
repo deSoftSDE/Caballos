@@ -33,9 +33,14 @@
                 alignment: "center"
             }, {
                 dataField: "nombre",
+                caption: "Nombre",
                 width: "50%",
                 allowEditing: false,
-                caption: "Nombre"
+            }, {
+                dataField: "presente",
+                caption: "Presente",
+                width: "10%",
+                allowEditing: false,
             }, {
                 caption: "Modificar",
                 alignment: "center",

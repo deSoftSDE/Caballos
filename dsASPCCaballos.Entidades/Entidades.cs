@@ -40,6 +40,8 @@ namespace dsASPCCaballos.Entidades
         public int IDParticipante { get; set; }
         [DataMember]
         public string Nombre { get; set; }
+        [DataMember]
+        public Boolean Presente { get; set; }
     }
     [DataContract]
     public class CadenasBusqueda

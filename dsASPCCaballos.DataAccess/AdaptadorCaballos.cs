@@ -52,6 +52,7 @@ namespace dsASPCCaballos.DataAccess
                     {
                         IDParticipante = AsignaEntero("IDParticipante"),
                         Nombre = AsignaCadena("Nombre"),
+                        Presente = AsignaBool("Presente"),
                     };
                     res.Add(pr);
                 }
@@ -70,6 +71,8 @@ namespace dsASPCCaballos.DataAccess
                     //new SqlParameter("@participante", prst)
                     new SqlParameter("@IDParticipante", pr.IDParticipante),
                     new SqlParameter("@Nombre", pr.Nombre),
+                    new SqlParameter("@Presente", pr.Presente),
+
 
                 };
                 _cmd = SQLHelper.PrepareCommand(conn, null, CommandType.StoredProcedure, @"Caballos.ParticipanteModificar", param);
