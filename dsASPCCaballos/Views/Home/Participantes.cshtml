@@ -5,67 +5,45 @@
 <h3>@ViewData["Message"]</h3>
 
 <p>Use this area to provide additional information.</p>
-asdfasdf
 <div ng-controller="consulta">
-    <div class="row mb-3">
-        <div class="col-12">
-            <div class="input-group">
-                <input type="text" class="form-control campo-search " placeholder="Buscar Modelos" value="" autocomplete="off" ng-model="buscador" ng-change="cambioBuscador()">
-                <div class="input-group-append">
-                    <button class="btn btn-default boton-buscar form-control-sm " type="submit" id="btn_buscar" tabindex="2" ng-click="activarBusqueda()">
-                        <i class="fas fa-search"></i>
-                    </button>
-                    <button class="btn btn-default boton-buscar form-control-sm btn-right" type="submit" id="btn_buscar" tabindex="2" ng-click="anularBusqueda()">
-                        <i class="fas fa-ban"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="dx-viewport demo-container">
 
-        <div id="gridContainer" dx-data-grid="dataGridOptions" dx-item-alias="vidrio" style="width:100% !important;">
-            <div data-options="dxTemplate:{ name:'cellTemplate' }">
-                <img class="img-fluid imagen-tabla" ng-src="{{vidrio.value}}" />
-
-            </div>
+        <div id="gridContainer" dx-data-grid="dataGridOptions" dx-item-alias="participante" style="width:100% !important;">
             <div data-options="dxTemplate:{ name:'editTemplate' }">
 
                 @*<input type="submit" ng-click="modificarVidrio(vidrio)" />*@
-                <button type="submit" ng-click="modificarVidrio(vidrio)" class="btn btn-default btn-sm"><i class="fas fa-pen-square"></i> Editar</button>
+                <button type="submit" ng-click="modificarParticipante(participante.data)" class="btn btn-default btn-sm"><i class="fas fa-pen-square"></i> Editar</button>
 
             </div>
             <div data-options="dxTemplate:{ name:'deleteTemplate' }">
 
                 @*<input type="submit" ng-click="modificarVidrio(vidrio)" />*@
-                <button type="submit" ng-click="eliminarRegistro(vidrio)" class="btn btn-default btn-sm"><i class="fas fa-trash-alt"></i> Eliminar</button>
+                <button type="submit" ng-click="eliminarParticipante(participante.data)" class="btn btn-default btn-sm"><i class="fas fa-trash-alt"></i> Eliminar</button>
 
             </div>
 
         </div>
     </div>
-    <div class="row">
 
-        <div class="col-6 offset-3 mt-3 ">
-            <div class="">
-                <nav class="">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item disabled" id="primera" ng-click="cambiarPagina(this, 'F')">
-                            <a class="page-link"><i class="fa fa-step-backward fa-xs "></i><small style="font-size:72%">Primera</small> </a>
-                        </li>
-                        <li class="page-item" id="anterior" ng-click="cambiarPagina(this, 'P')">
-                            <a class="page-link"><i class="fa fa-caret-left fa-xs "></i> <small style="font-size:72%"> anterior</small></a>
-                        </li>
-                        <li class="page-item" id="siguiente" ng-click="cambiarPagina(this, 'N')">
-                            <a class="page-link"><small style="font-size:72%">siguiente</small>  <i class="fa fa-caret-right fa-xs "></i></a>
-                        </li>
-                        <li class="page-item" id="ultima" ng-click="cambiarPagina(this, 'L')">
-                            <a class="page-link"><small style="font-size:72%">Última</small> <i class="fa fa-step-forward fa-xs "></i> </a>
-                        </li>
-                    </ul>
-                </nav>
+
+    <div dx-popup="popupOptions">
+        <div class='popup-property-details'>
+            <div class="form">
+                <div class="form-group">
+                    <label>Nombre </label>
+                    <div class="col-12">
+                        <input type="text" ng-model="currentParticipante.nombre" class="form-control" />
+                        <small id="" class="form-text text-muted">Nombre del participante</small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right">
+                        @*<input type="submit" value="Guardar cambios" ng-click="guardarCambiosPopup()" />*@
+                        <button class="btn btn-primary" type="submit" value="Guardar cambios" ng-click="guardarCambiosPopup()">Guardar</button>
+                        <button class="btn btn-danger" type="submit" value="Guardar cambios" ng-click="cancelarCambios()">Cancelar</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 </div>

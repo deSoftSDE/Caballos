@@ -57,6 +57,7 @@ namespace dsASPCCaballos.Entidades
     }
     public class ResultadoIM
     {
-
+        public int Identidad { get; set; }
+        public string Resultado { get; set; }
     }
 }
