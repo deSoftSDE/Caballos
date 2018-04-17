@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
-<body>
+<body ng-controller="navegacion">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -67,5 +67,13 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script type="text/javascript" src="~/aplicacion/app.js"></script>
+    <script type="text/javascript" src="~/aplicacion/MainController.js"></script>
+    <script type="text/javascript" src="~/aplicacion/ConsultaController.js"></script>
+    <script type="text/javascript" src="~/js/dx.all.js"></script>
+
 </body>
 </html>

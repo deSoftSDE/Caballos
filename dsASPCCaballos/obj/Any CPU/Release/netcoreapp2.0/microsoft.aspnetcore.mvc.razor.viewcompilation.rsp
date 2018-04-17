@@ -1,0 +1,12 @@
+C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=dsASPCCaballos
+--content-root=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\Home\About.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\Home\Contact.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\Home\Index.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\Shared\Error.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\Shared\_Layout.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\_ViewImports.cshtml
+--file=C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\Views\_ViewStart.cshtml
