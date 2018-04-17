@@ -83,6 +83,18 @@
         $scope.currentParticipante = participante;
         console.log($scope.currentParticipante);
     }
+    $scope.eliminarParticipante = function (participante) {
+        result = DevExpress.ui.dialog.confirm("¿Seguro que deseas eliminar este participante?");
+        result.then(function (val) {
+            if (val) {
+                Llamada.get("ParticipanteEliminar?idParticipante=" + participante.idParticipante)
+                    .then(function (respuesta) {
+                        console.log(respuesta);
+                        LeerParticipantes();
+                    });
+            }
+        });
+    }
     $scope.cancelarCambios = function () {
         $scope.popupVisible = false;
     }

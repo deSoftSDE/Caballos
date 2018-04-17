@@ -85,6 +85,31 @@ namespace dsASPCCaballos.DataAccess
             }
             return res;
         }
-         
+
+        public ResultadoIM ParticipanteEliminar(int IDParticipante)
+        {
+            var res = new ResultadoIM();
+            //var prst = dsCore.Comun.Ayudas.SerializarACadenaXML(pr);
+            var cc = _configuration.GetConnectionString("DefaultConnection");
+            using (SqlConnection conn = new SqlConnection(cc))
+            {
+                SqlParameter[] param = new SqlParameter[]
+                {
+                    //new SqlParameter("@participante", prst)
+                    new SqlParameter("@IDParticipante", IDParticipante),
+
+
+                };
+                _cmd = SQLHelper.PrepareCommand(conn, null, CommandType.StoredProcedure, @"Caballos.ParticipanteEliminar", param);
+                _reader = _cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                if (_reader.Read())
+                {
+                    res.Identidad = AsignaEntero("Identidad");
+                    res.Resultado = AsignaCadena("Resultado");
+                }
+            }
+            return res;
+        }
+
     }
 }

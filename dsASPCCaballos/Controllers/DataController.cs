@@ -66,6 +66,30 @@ namespace dsASPCCaballos.Controllers
             return result;
         }
 
+        [HttpGet]
+        public IActionResult ParticipanteEliminar(int IDParticipante)
+        {
+            ObjectResult result;
+            try
+            {
+                var ad = new AdaptadorCaballos(_configuration);
+                var res = ad.ParticipanteEliminar(IDParticipante);
+                result = new ObjectResult(res)
+                {
+                    StatusCode = (int)HttpStatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                result = new ObjectResult(ex)
+                {
+                    StatusCode = (int)HttpStatusCode.Conflict
+                };
+                Request.HttpContext.Response.Headers.Add("dsError", ex.Message);
+            }
+            return result;
+        }
+
         [HttpPost]
         public IActionResult ParticipanteModificar([FromBody] Participante pr)
         {
