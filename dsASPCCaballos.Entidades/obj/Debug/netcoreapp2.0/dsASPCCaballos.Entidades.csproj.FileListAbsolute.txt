@@ -7,3 +7,12 @@ C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos.Enti
 C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.AssemblyInfo.cs
 C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.dll
 C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.pdb
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.deps.json
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.pdb
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.AssemblyInfoInputs.cache
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.AssemblyInfo.cs
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos.Entidades\obj\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.pdb

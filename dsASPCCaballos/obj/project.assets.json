@@ -6110,7 +6110,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "PMt5FdHEWppP+HT3FJg8XmJPk2sTnKUgq+Q+4qzWi6G1tPzX7k1R9LpbGtEHRtGQ3/RgIZpUELTvotChp7NRog==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -10276,7 +10276,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "cVrodO1VQyOrfFcWBj7VKLiIw+aalgMDX3T5lRjHXtX0P6fIyqZ4wPDfbmyutc7Q0YHipHatccLJ36SEvHuw9Q==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -13228,7 +13228,6 @@
   },
   "packageFolders": {
     "C:\\Users\\Rosa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13237,35 +13236,32 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos\\dsASPCCaballos.csproj",
+      "projectUniqueName": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos\\dsASPCCaballos.csproj",
       "projectName": "dsASPCCaballos",
-      "projectPath": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos\\dsASPCCaballos.csproj",
+      "projectPath": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos\\dsASPCCaballos.csproj",
       "packagesPath": "C:\\Users\\Rosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos\\obj\\",
+      "outputPath": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Rosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\xampp\\htdocs\\admin_1_angularjs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.devexpress.com/bsJjvn6eix1V8QS2XLRIjcM91rgc7nYF4MKfXtks9CtTKLeZHe/api": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos.DataAccess\\dsASPCCaballos.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos.DataAccess\\dsASPCCaballos.DataAccess.csproj"
+            "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos.DataAccess\\dsASPCCaballos.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos.DataAccess\\dsASPCCaballos.DataAccess.csproj"
             }
           }
         }

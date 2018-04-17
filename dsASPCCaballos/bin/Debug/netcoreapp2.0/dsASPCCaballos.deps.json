@@ -28,6 +28,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
           "dsASPCCaballos.DataAccess": "1.0.0",
           "dsCore.Buscador": "2.0.0.17",
+          "dsCore.Comun": "2.0.0.17",
           "dsCore2.DataAccess": "1.0.0.0"
         },
         "runtime": {
@@ -4097,6 +4098,14 @@
           "dsCore.Buscador.dll": {}
         }
       },
+      "dsCore.Comun/2.0.0.17": {
+        "runtime": {
+          "dsCore.Comun.dll": {}
+        },
+        "compile": {
+          "dsCore.Comun.dll": {}
+        }
+      },
       "dsCore2.DataAccess/1.0.0.0": {
         "runtime": {
           "dsCore2.DataAccess.dll": {}
@@ -4915,7 +4924,7 @@
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "sha512-PMt5FdHEWppP+HT3FJg8XmJPk2sTnKUgq+Q+4qzWi6G1tPzX7k1R9LpbGtEHRtGQ3/RgIZpUELTvotChp7NRog==",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hashPath": "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512"
     },
@@ -6000,7 +6009,7 @@
     "System.Linq.Queryable/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "sha512-cVrodO1VQyOrfFcWBj7VKLiIw+aalgMDX3T5lRjHXtX0P6fIyqZ4wPDfbmyutc7Q0YHipHatccLJ36SEvHuw9Q==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },
@@ -6435,6 +6444,11 @@
       "sha512": ""
     },
     "dsCore.Buscador/2.0.0.17": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dsCore.Comun/2.0.0.17": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

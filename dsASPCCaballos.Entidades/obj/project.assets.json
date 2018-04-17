@@ -665,7 +665,6 @@
   },
   "packageFolders": {
     "C:\\Users\\Rosa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -674,27 +673,24 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos.Entidades\\dsASPCCaballos.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos.Entidades\\dsASPCCaballos.Entidades.csproj",
       "projectName": "dsASPCCaballos.Entidades",
-      "projectPath": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos.Entidades\\dsASPCCaballos.Entidades.csproj",
+      "projectPath": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos.Entidades\\dsASPCCaballos.Entidades.csproj",
       "packagesPath": "C:\\Users\\Rosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rosa\\Documents\\Visual Studio 2017\\Projects\\Caballos\\dsASPCCaballos.Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Rosa\\source\\repos\\Caballos\\dsASPCCaballos.Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Rosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\xampp\\htdocs\\admin_1_angularjs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.devexpress.com/bsJjvn6eix1V8QS2XLRIjcM91rgc7nYF4MKfXtks9CtTKLeZHe/api": {}
       },

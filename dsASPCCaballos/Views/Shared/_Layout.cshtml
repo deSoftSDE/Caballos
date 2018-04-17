@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - dsASPCCaballos</title>
+    <title>@ViewData["Title"] - Yeguada Los Arcangeles</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -15,6 +15,7 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/17.2.5/css/dx.common.css">
     <link rel="stylesheet" href="~/css/dx.light.css">
 </head>
@@ -28,7 +29,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">dsASPCCaballos</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    
+                    <img class="img-responsive" src="~/images/logo_horizontal.png"  style="height:50px;"/>
+                    Yeguada Los Arcangeles
+                </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -43,7 +48,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - dsASPCCaballos</p>
+            <p>&copy; 2018 - Yeguada Los Arcangeles</p>
         </footer>
     </div>
 

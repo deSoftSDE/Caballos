@@ -20,3 +20,25 @@ C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\bin\
 C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.DataAccess.pdb
 C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.dll
 C:\Users\Rosa\Documents\Visual Studio 2017\Projects\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.pdb
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.deps.json
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.runtimeconfig.json
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.runtimeconfig.dev.json
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.pdb
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.DataAccess.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsCore.Buscador.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsCore.Comun.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsCore2.DataAccess.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsCore.Tipos.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\MimeKit.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\MailKit.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\BouncyCastle.Crypto.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.DataAccess.pdb
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\bin\Debug\netcoreapp2.0\dsASPCCaballos.Entidades.pdb
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\obj\Debug\netcoreapp2.0\dsASPCCaballos.csprojResolveAssemblyReference.cache
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\obj\Debug\netcoreapp2.0\dsASPCCaballos.csproj.CoreCompileInputs.cache
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\obj\Debug\netcoreapp2.0\dsASPCCaballos.AssemblyInfoInputs.cache
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\obj\Debug\netcoreapp2.0\dsASPCCaballos.AssemblyInfo.cs
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\obj\Debug\netcoreapp2.0\dsASPCCaballos.dll
+C:\Users\Rosa\source\repos\Caballos\dsASPCCaballos\obj\Debug\netcoreapp2.0\dsASPCCaballos.pdb
